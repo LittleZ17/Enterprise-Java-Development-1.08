@@ -3,15 +3,20 @@ package Interface;
 public class Main {
     public static void main(String[] args) {
 
-        IntArrayList listTest = new IntArrayList();
+        IntArrayList intArrayList = new IntArrayList();
+        IntVector intVector = new IntVector();
 
-        listTest.add(123);
-        listTest.add(456);
-        listTest.add(98);
-        listTest.add(567);
-        listTest.add(123);
+//      Change the conditional in for loop for check length of array.
+        /*for (int i = 0; i < 12; i++){
+            intArrayList.add(123);
+        };*/
 
-        System.out.println(listTest.get(2));
-        //System.out.println(listTest.get(10));
+       /* for (int i = 0; i < 25; i++ ){
+            intVector.add(987);
+        }*/
+
+        //System.out.println(intArrayList.get(2));
+
+        //System.out.println(intVector.get(1));
     }
 }
